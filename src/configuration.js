@@ -1,5 +1,5 @@
 const {
-  REACT_APP_ENVIRONMENT = 'localhost', // optional
+  REACT_APP_ENVIRONMENT = 'develop', // optional
   REACT_APP_DECIMALS = 8, // optional
   REACT_APP_FEATHERJS_CONNECTION_URL,
   REACT_APP_ETH_NODE_CONNECTION_URL,
@@ -39,7 +39,7 @@ const configurations = {
     etherscan: 'https://rinkeby.etherscan.io/',
     foreignEtherscan: 'https://ropsten.etherscan.io/',
     feathersConnection: 'https://feathers.develop.giveth.io',
-    foreignNodeConnection: 'wss://rinkeby.giveth.io:8546',
+    foreignNodeConnection: 'wss://rinkeby.giveth.io/ws',
     homeNodeConnection: 'https://ropsten.infura.io/Id3GoVvLrsO08ZNjxiKz',
   },
   release: {
